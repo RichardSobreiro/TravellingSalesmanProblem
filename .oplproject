@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Multiobjective Travelling Salesman Problem</description>
+	<configs>
+		<config default="false" name="Configuration1" category="opl">
+			<ref name="MTSP.ops" type="setting">
+			</ref>
+			<ref name="MTSP_MillerTuckerZemlin.mod" type="model">
+			</ref>
+			<ref name="MTSP5x5.dat" type="data">
+			</ref>
+		</config>
+		<config default="true" name="Configuration2" category="opl">
+			<ref name="MTSP_DantzigFulkersonJohnson.mod" type="model">
+			</ref>
+			<ref name="MTSP.ops" type="setting">
+			</ref>
+			<ref name="MTSP.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
